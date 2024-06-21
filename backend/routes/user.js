@@ -12,4 +12,4 @@ router.post("/login", loginUser);
 // signup
 router.post("/signup", signupUser);
 
-modules.exports = router;
+module.exports = router;
