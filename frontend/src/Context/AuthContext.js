@@ -26,10 +26,10 @@ export const AuthContextProvider = ({ children }) => {
     }
   }, [dispatch]);
 
-  // Log the state only when it changes
-  useEffect(() => {
-    console.log("AuthContext state: ", state);
-  }, [state]);
+  // // Log the state only when it changes
+  // useEffect(() => {
+  //   console.log("AuthContext state: ", state);
+  // }, [state]);
 
   return (
     <AuthContext.Provider value={{ ...state, dispatch }}>
